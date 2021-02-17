@@ -1,0 +1,8 @@
+package com.bean_scope_and_mapping.spring_data_and_mapping.mapping_inheritence_without_generating_super_class.repository;
+
+import com.bean_scope_and_mapping.spring_data_and_mapping.mapping_inheritence_without_generating_super_class.RegularCar;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface RegularCarRepository extends VehicleRepository{
+}
